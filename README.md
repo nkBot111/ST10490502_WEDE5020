@@ -56,7 +56,7 @@ The website promotes mental health awareness and access to help in a stigma-free
 ![Services Wireframe](/images/wireframe-services.png)
 
 ### Enquiry Page
-![Enquiry Wireframe](/images/wireframe-enquiry.png)
+![Enquiry Wireframe](/images/wireframe-enquiry.PNG)
 
 ### Resources Page
 ![Resources Wireframe](/images/wireframe-resources.png)
