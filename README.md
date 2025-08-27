@@ -37,10 +37,10 @@ The website promotes mental health awareness and access to help in a stigma-free
 ## Sitemaps
 
 ### High-Level Sitemap
-![Sitemap Overview](/images/sitemap1.png)
+![Sitemap Overview](/images/sitemap2.png)
 
 ### Detailed Sitemap
-![Sitemap Detailed](/images/sitemap2.png)
+![Sitemap Detailed](/images/sitemap1.png)
 
 ---
 
