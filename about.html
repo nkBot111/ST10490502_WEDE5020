@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CalmConnect | About</title>
+<meta name="description" content="Learn about CalmConnect’s mission, vision, and team dedicated to social anxiety support." />
+
+<!-- Temporary inline styling for Part 1 -->
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #f7f7f7; border-bottom: 1px solid #ddd; }
+.logo { font-weight: bold; text-decoration: none; color: #000; }
+nav ul { display: flex; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+nav a { text-decoration: none; color: #2d6cdf; }
+nav a[aria-current="page"] { font-weight: bold; text-decoration: underline; }
+main { padding: 1rem; }
+footer { text-align: center; padding: 1rem; border-top: 1px solid #ddd; margin-top: 2rem; font-size: 0.9rem; color: #555; }
+h1, h2 { margin-top: 0; color: #1f2a44; }
+ul.cards { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+ul.cards li a { display: block; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; text-align: center; background: #fafafa; }
+form { display: grid; gap: 1rem; max-width: 500px; }
+input, textarea, select, button { padding: 0.5rem; font: inherit; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #2d6cdf; color: #fff; cursor: pointer; border: none; }
+button:hover { background: #1b4fa3; }
+</style>
+</head>
+
+<body>
+<header>
+<a href="index.html" class="logo">CalmConnect</a>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html" aria-current="page">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="enquiry.html">Enquiry</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="findhelp.html">Find Help</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="container">
+<main>
+<h1>About CalmConnect</h1>
+<p><strong>Mission:</strong> Provide accessible and supportive pathways for people living with social anxiety.</p>
+<p><strong>Vision:</strong> A stigma-free community where help is easy to find and use.</p>
+
+<section aria-labelledby="team">
+<h2 id="team">Our Team</h2>
+<div class="team-cards">
+<article>
+<h3>Dr. Naledi Mokoena</h3>
+<p>Naledi is a clinical psychologist with over 10 years of experience supporting young adults with anxiety. She is passionate about creating safe spaces where people can share and heal.</p>
+</article>
+
+<article>
+<h3>Thabo Khumalo</h3>
+<p>Thabo is a mental health advocate and community organiser. He runs local support groups and workshops helping people find connection and practical tools for coping with stress.</p>
+</article>
+
+<article>
+<h3>Sophia Daniels</h3>
+<p>Sophia is a wellness coach and writer. She focuses on mindfulness, journaling and breathing techniques, making mental health practices accessible to everyone.</p>
+</article>
+</div>
+</section>
+
+<section aria-labelledby="contact">
+<h2 id="contact">Contact</h2>
+<form action="#" method="post">
+<label for="name">Name</label><input id="name" name="name" type="text" required />
+<label for="email">Email</label><input id="email" name="email" type="email" required />
+<label for="msg">Message</label><textarea id="msg" name="message" rows="5"></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+</main>
+
+<footer><small>&copy; 2025 CalmConnect</small></footer>
+</div>
+</body>
+</html>

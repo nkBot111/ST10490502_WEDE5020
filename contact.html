@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CalmConnect | Contact</title>
+<meta name="description" content="Contact CalmConnect via email, phone, or message form. Includes locations in Johannesburg and Durban." />
+
+<!-- Temporary inline styling for Part 1 -->
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #f7f7f7; border-bottom: 1px solid #ddd; }
+.logo { font-weight: bold; text-decoration: none; color: #000; }
+nav ul { display: flex; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+nav a { text-decoration: none; color: #2d6cdf; }
+nav a[aria-current="page"] { font-weight: bold; text-decoration: underline; }
+main { padding: 1rem; }
+footer { text-align: center; padding: 1rem; border-top: 1px solid #ddd; margin-top: 2rem; font-size: 0.9rem; color: #555; }
+h1, h2 { margin-top: 0; color: #1f2a44; }
+.map-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); margin: .5rem 0 2rem; }
+.map-grid iframe { width: 100%; height: 260px; border: 0; border-radius: 6px; }
+form { display: grid; gap: 1rem; max-width: 500px; }
+input, textarea, select, button { padding: 0.5rem; font: inherit; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #2d6cdf; color: #fff; cursor: pointer; border: none; }
+button:hover { background: #1b4fa3; }
+.muted { color: #666; font-size: 0.9rem; }
+</style>
+</head>
+
+<body>
+<header>
+<a href="index.html" class="logo">CalmConnect</a>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="enquiry.html">Enquiry</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="findhelp.html">Find Help</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="container">
+<main>
+<h1>Contact Us</h1>
+<p>Email: <a href="mailto:hello@calmconnect.org">hello@calmconnect.org</a></p>
+<p>Telephone: 011 442 4980 | 021 447 0845</p>
+
+<section aria-labelledby="locations">
+<h2 id="locations">Our Locations</h2>
+<p class="muted">We currently serve users online across South Africa.</p>
+
+<div class="map-grid">
+<article>
+<h3>Johannesburg</h3>
+<iframe title="Map: Johannesburg" src="https://www.google.com/maps?q=-26.2041,28.0473&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</article>
+
+<article>
+<h3>Durban</h3>
+<iframe title="Map: Durban" src="https://www.google.com/maps?q=-29.8587,31.0218&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</article>
+</div>
+</section>
+
+<section aria-labelledby="contact-form">
+<h2 id="contact-form">Send a Message</h2>
+<form action="#" method="post" class="form-grid" aria-describedby="privacy">
+<div>
+<label for="topic">Topic</label>
+<select id="topic" name="topic" required>
+<option value="">Select one</option>
+<option>General</option>
+<option>Support</option>
+<option>Partnership</option>
+</select>
+</div>
+
+<div class="full">
+<label for="msg">Message</label>
+<textarea id="msg" name="message" rows="6" required></textarea>
+</div>
+
+<div class="full">
+<button type="submit">Send</button>
+</div>
+</form>
+<p id="privacy" class="muted">We do not collect sensitive health data.</p>
+</section>
+</main>
+
+<footer><small>&copy; 2025 CalmConnect</small></footer>
+</div>
+</body>
+</html>
