@@ -37,7 +37,7 @@ The website promotes mental health awareness and access to help in a stigma-free
 ## Sitemaps
 
 ### High-Level Sitemap
-![Sitemap Overview](CalmConnect/images/sitemap1.png)
+![Sitemap Overview](/images/sitemap1.png)
 
 ### Detailed Sitemap
 ![Sitemap Detailed](/images/sitemap2.png)
