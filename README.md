@@ -27,7 +27,7 @@ The site provides coping resources, event information, helpline numbers and clea
 ---
 
 ## Wireframes
-![All wireframes](images/wireframes_all_sheets.png)
+![Wireframes](images/wireframes_all_sheets.png)
 
 ---
 
