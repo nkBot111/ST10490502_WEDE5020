@@ -1,11 +1,24 @@
-# ST10490502_WEDE5020
-WEDE5020 Website Development Assignment (ST10490502)
+# CalmConnect — WEDE5020 Assignment Part 1
 
-CalmConnect — WEDE5020 Assignment Part 1
+## Student Information
+- **Name:** Nsovo Kelsey Mthembi
+- **Student Number:** ST10490502
+- **Module:** WEDE5020 – Website Development
+- **Semester:** 2 (2025)
 
-## Overview
-CalmConnect is a stigma-free online platform designed to support people living with social anxiety.
-The site provides coping resources, event information, helpline numbers and clear pathways to professional help.
+---
+
+## Project Overview
+**CalmConnect** is a supportive online space providing tools, resources and connections for people living with social anxiety.
+The website promotes mental health awareness and access to help in a stigma-free environment.
+
+---
+
+## Website Goals and Objectives
+- Create a **safe, calm, stigma-free** digital space
+- Provide **accessible resources** for managing social anxiety
+- Offer **connections to help** (hotlines, therapists, community support)
+- Support learning through **resources, workshops, and events**
 
 ---
 
@@ -21,13 +34,41 @@ The site provides coping resources, event information, helpline numbers and clea
 
 ---
 
-## Sitemap
-![Sitemap](images/calmconnect_sitemap.png)
+## Sitemaps
+
+### High-Level Sitemap
+![Sitemap Overview](images/sitemap1.png)
+
+### Detailed Sitemap
+![Sitemap Detailed](images/sitemap2.png)
 
 ---
 
 ## Wireframes
-![Wireframes](images/wireframes_all_sheets.png)
+
+### Home Page
+![Home Wireframe](images/wireframe-home.png)
+
+### About Page
+![About Wireframe](images/wireframe-about.png)
+
+### Services Page
+![Services Wireframe](images/wireframe-services.png)
+
+### Enquiry Page
+![Enquiry Wireframe](images/wireframe-enquiry.png)
+
+### Resources Page
+![Resources Wireframe](images/wireframe-resources.png)
+
+### Events Page
+![Events Wireframe](images/wireframe-events.png)
+
+### Find Help Page
+![Find Help Wireframe](images/wireframe-findhelp.png)
+
+### Contact Page
+![Contact Wireframe](images/wireframe-contact.png)
 
 ---
 
@@ -41,10 +82,10 @@ The site provides coping resources, event information, helpline numbers and clea
 ---
 
 ## Changelog
-- v0.1 – Created skeleton HTML and navigation
-- v0.2 – Added content (team bios, helplines, events, forms)
-- v0.3 – Fixed CSS typos and hero image path
-- v0.4 – Added sitemap and wireframes
+- **Part 1 (2025-08-27):**
+- Created full HTML page structure (Home, About, Services, Enquiry, Resources, Events, Find Help, Contact).
+- Added base CSS for layout, typography, forms, and responsiveness.
+- Added sitemap (2 versions) and wireframes (8 total).
 
 ---
 
@@ -58,4 +99,4 @@ The site provides coping resources, event information, helpline numbers and clea
 
 ## Image Credits
 - `images/sunset.jpg` – Stock image (Unsplash/Sean Oulashin, <https://unsplash.com/@oulashin> )
-- `images/calmconnect_sitemap.png` and `images/wireframes_*.png` – Generated diagrams for assignment
+- `images/sitemap1.png`, `images/sitemap2.png`, and all `wireframe_*.png` – Created diagrams for assignment submission
