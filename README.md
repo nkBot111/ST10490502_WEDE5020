@@ -37,38 +37,38 @@ The website promotes mental health awareness and access to help in a stigma-free
 ## Sitemaps
 
 ### High-Level Sitemap
-![Sitemap Overview](CalmConnect/Images/sitemap1.png)
+![Sitemap Overview](CalmConnect/images/sitemap1.png)
 
 ### Detailed Sitemap
-![Sitemap Detailed](images/sitemap2.png)
+![Sitemap Detailed](CalmConnect/images/sitemap2.png)
 
 ---
 
 ## Wireframes
 
 ### Home Page
-![Home Wireframe](images/wireframe-home.png)
+![Home Wireframe](CalmConnect/images/wireframe-home.png)
 
 ### About Page
-![About Wireframe](images/wireframe-about.png)
+![About Wireframe](CalmConnect/images/wireframe-about.png)
 
 ### Services Page
-![Services Wireframe](images/wireframe-services.png)
+![Services Wireframe](CalmConnect/images/wireframe-services.png)
 
 ### Enquiry Page
-![Enquiry Wireframe](images/wireframe-enquiry.png)
+![Enquiry Wireframe](CalmConnect/images/wireframe-enquiry.png)
 
 ### Resources Page
-![Resources Wireframe](images/wireframe-resources.png)
+![Resources Wireframe](CalmConnect/images/wireframe-resources.png)
 
 ### Events Page
-![Events Wireframe](images/wireframe-events.png)
+![Events Wireframe](CalmConnect/images/wireframe-events.png)
 
 ### Find Help Page
-![Find Help Wireframe](images/wireframe-findhelp.png)
+![Find Help Wireframe](CalmConnect/images/wireframe-findhelp.png)
 
 ### Contact Page
-![Contact Wireframe](images/wireframe-contact.png)
+![Contact Wireframe](CalmConnect/images/wireframe-contact.png)
 
 ---
 
