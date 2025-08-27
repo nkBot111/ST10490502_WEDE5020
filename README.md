@@ -37,17 +37,17 @@ The website promotes mental health awareness and access to help in a stigma-free
 ## Sitemaps
 
 ### High-Level Sitemap
-![Sitemap Overview](CalmConnect/images/sitemap1.png)
+![Sitemap Overview](CalmConnect/images/sitemap1.jpg)
 
 ### Detailed Sitemap
-![Sitemap Detailed](CalmConnect/images/sitemap2.png)
+![Sitemap Detailed](CalmConnect/images/sitemap2.jpg)
 
 ---
 
 ## Wireframes
 
 ### Home Page
-![Home Wireframe](CalmConnect/images/wireframe-home.png)
+![Home Wireframe](CalmConnect/images/wireframe-home.jpg)
 
 ### About Page
 ![About Wireframe](CalmConnect/images/wireframe-about.png)
