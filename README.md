@@ -8,6 +8,14 @@
 
 ---
 
+# CalmConnect Website
+
+## Part 1: HTML Setup
+- Basic structure built
+- All pages linked with nav
+
+---
+
 ## Project Overview
 **CalmConnect** is a supportive online space providing tools, resources and connections for people living with social anxiety.
 The website promotes mental health awareness and access to help in a stigma-free environment.
@@ -103,9 +111,25 @@ The website promotes mental health awareness and access to help in a stigma-free
 
 ---
 
+**Deliverables Achieved (Part 1):**
+- Two proposals with research and objectives.  
+- Sitemaps (high-level + detailed).  
+- Wireframes for all major pages.  
+- HTML pages with semantic structure.  
+- GitHub repo with all Part 1 files.
+
+---
+
 # CalmConnect — WEDE5020 Assignment Part 2
 
 # CalmConnect Website
+
+## Part 2: CSS & Responsiveness
+- Moved inline CSS → external stylesheet
+- Added Flexbox & Grid layouts
+- Applied responsive design with media queries
+
+  ---
 
 ## Overview
 CalmConnect is a website project aimed at supporting individuals with social anxiety by providing resources, events, and easy access to help.
