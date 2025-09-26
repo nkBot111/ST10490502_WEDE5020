@@ -163,12 +163,12 @@ Screenshots below demonstrate the site at different breakpoints:
 
 ## Changelog
 - **10-09-2025:** Updated navigation styles with hover/focus states.  
-- **26-09-2025:** Moved all inline CSS into external `style.css`.  
+- **26-09-2025:** Moved all inline CSS into external stylesheet `style.css`. Part 1 code remains available in commit history.
 - **12-09-2025:** Implemented Flexbox and Grid layouts for services, team, and forms.  
 - **02-09-2025:** Added responsive breakpoints at 1024px (tablet) and 640px (mobile).  
 - **15-09-2025:** Styled buttons with transitions and hover effects.  
 - **26-09-2025:** Polished typography using relative units (`rem`).  
-- **12-09-2025:** Improved accessibility: added alt text, consistent colour contrast.  
+- **12-09-2025:** Improved accessibility: added alt text, consistent colour contrast.
 
 ---
 
