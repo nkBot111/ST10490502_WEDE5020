@@ -179,3 +179,48 @@ Screenshots below demonstrate the site at different breakpoints:
 - Nielsen Norman Group. [Designing for Accessibility](https://www.nngroup.com/topic/accessibility/)
 
 ---
+
+# CalmConnect — WEDE5020 Assignment Part 3
+
+# CalmConnect Website
+
+### Part 3 – Enhancements
+- Accordion functionality on Resources page
+- Search filter on Resources page
+- Interactive Leaflet map on Contact page
+- Gallery with lightbox on Events page
+- Enquiry form with cost estimation
+- Contact form with JavaScript validation
+- SEO improvements:
+  - Meta titles, descriptions, and keywords
+  - Alt text for images
+  - Robots.txt and sitemap.xml
+- Responsive design for mobile and tablet devices
+
+---
+
+## Changelog
+
+### Part 3 Updates (2025-10-27)
+- Added interactive elements (accordion, search filter, lightbox)
+- Added interactive Leaflet map with multiple locations
+- Added gallery images with lightbox functionality
+- Implemented enquiry form cost calculation
+- Added client-side validation for contact form
+- Added `robots.txt` and `sitemap.xml` for SEO
+- Updated meta tags, keywords, and alt attributes for images
+- Ensured all pages are mobile-friendly and responsive
+
+### Previous Updates
+- Part 2: Base HTML structure, CSS styling, basic forms
+- Part 1: Initial setup and layout
+
+---
+
+## References
+- [Leaflet.js](https://leafletjs.com/) – Interactive maps  
+- [OpenStreetMap](https://www.openstreetmap.org/) – Map tiles and attribution  
+- [W3Schools](https://www.w3schools.com/) – HTML, CSS, and JS references  
+- [MDN Web Docs](https://developer.mozilla.org/) – HTML, CSS, JavaScript documentation
+
+---
