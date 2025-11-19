@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js" defer></script>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>CalmConnect | Resources</title>
@@ -31,6 +32,7 @@ button:hover { background: #1b4fa3; }
 </style>
 -->
 	</head>
+	
 	<body>
 		<header>
 			<a href="index.html" class="logo">CalmConnect</a>
@@ -65,37 +67,56 @@ button:hover { background: #1b4fa3; }
 		</header>
 		<div class="container">
 			<main>
-				<h1>Resources</h1>
-				<article>
-					<h2>Breathing Exercise: 4-7-8</h2>
-					<p>Use this calming technique to manage stress and anxiety. Practice by:</p>
-					<ul>
-						<li>Inhale quietly through your nose for 4 seconds</li>
-						<li>Hold your breath for 7 seconds</li>
-						<li>Exhale slowly through your mouth for 8 seconds</li>
-						<li>Repeat the cycle up to 4 times</li>
-					</ul>
-				</article>
-				<article>
-					<h2>CBT Basics for Social Anxiety</h2>
-					<p>Core strategies from Cognitive Behavioural Therapy (CBT):</p>
-					<ul>
-						<li>Identify automatic thoughts that trigger anxiety</li>
-						<li>Challenge negative or distorted thinking patterns</li>
-						<li>Practice gradual exposure to feared situations</li>
-					</ul>
-				</article>
-				<article>
-					<h2>Journaling Prompts</h2>
-					<p>Encourage self-reflection and emotional awareness with these prompts:</p>
-					<ul>
-						<li>What situations make you feel most anxious and why?</li>
-						<li>Write about a time you overcame fear and how you managed it.</li>
-						<li>List 3 strengths you have that help you cope with challenges.</li>
-						<li>What does a "safe space" look like to you?</li>
-					</ul>
-				</article>
-			</main>
+    <h1>Resources</h1>
+
+    <!-- 🔎 SEARCH BAR -->
+    <input 
+        type="text" 
+        id="searchBar" 
+        placeholder="Search resources..." 
+        onkeyup="filterResources()" 
+        class="search-input"
+    />
+
+    <!-- ======================
+         ACCORDION + RESOURCES
+       ====================== -->
+    <div class="resource-item">
+        <h2 class="accordion-header">Breathing Exercise: 4-7-8</h2>
+        <div class="accordion-content">
+            <p>Use this calming technique to manage stress and anxiety.</p>
+            <ul>
+                <li>Inhale for 4 seconds</li>
+                <li>Hold for 7 seconds</li>
+                <li>Exhale for 8 seconds</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="resource-item">
+        <h2 class="accordion-header">CBT Basics for Social Anxiety</h2>
+        <div class="accordion-content">
+            <p>Core strategies from Cognitive Behavioural Therapy:</p>
+            <ul>
+                <li>Identify negative thoughts</li>
+                <li>Challenge cognitive distortions</li>
+                <li>Gradual exposure</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="resource-item">
+        <h2 class="accordion-header">Journaling Prompts</h2>
+        <div class="accordion-content">
+            <ul>
+                <li>What situations trigger your anxiety?</li>
+                <li>Describe a moment where you overcame fear.</li>
+                <li>List 3 strengths you rely on to cope.</li>
+            </ul>
+        </div>
+    </div>
+</main>
+
 			<footer>
 				<small>&copy; 2025 CalmConnect</small>
 			</footer>

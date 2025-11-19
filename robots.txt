@@ -1,0 +1,6 @@
+# robots.txt for CalmConnect
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://nkBot111.github.io/ST10490502_WEDE5020/sitemap.xml
